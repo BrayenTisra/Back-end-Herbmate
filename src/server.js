@@ -6,7 +6,7 @@ const logGoogle = require('./controller/oauth.js')
 const routesUsers = require('./routes/index.js');
 const middlewareLogReq = require('./middleware/logs.js');
 const questions = require('./controller/question.js');
-const loadModel = require('./config/loadModels.js');
+// const loadModel = require('./config/loadModels.js');
 
 
 const app = express();
